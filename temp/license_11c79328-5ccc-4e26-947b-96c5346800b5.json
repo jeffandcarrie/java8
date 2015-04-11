@@ -1,0 +1,18 @@
+{
+  "id": "11c79328-5ccc-4e26-947b-96c5346800b5",
+  "state": "NV",
+  "licenseNumber": "931988",
+  "licenseType": "Surplus Lines Broker",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "9f9fe7cd-4b16-4536-86be-5f9a585822ad",
+      "lineOFAuthority": "Surplus Lines",
+      "startDate": "1/24/2014",
+      "endDate": "2/1/2017"
+    }
+  ]
+}

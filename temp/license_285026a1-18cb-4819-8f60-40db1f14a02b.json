@@ -1,0 +1,36 @@
+{
+  "id": "285026a1-18cb-4819-8f60-40db1f14a02b",
+  "state": "SC",
+  "licenseNumber": "691026",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "e2eea935-3f3d-465c-8f3d-d074e6ac5b56",
+      "lineOFAuthority": "Casualty",
+      "startDate": "7/19/2013",
+      "endDate": "1/1/9999"
+    },
+    {
+      "id": "095e5bf3-2c63-4b60-a188-55e18fad8bf7",
+      "lineOFAuthority": "Property",
+      "startDate": "7/19/2013",
+      "endDate": "1/1/9999"
+    },
+    {
+      "id": "d43f1d13-6dad-4f50-80c0-a27a6be6ed2c",
+      "lineOFAuthority": "Casualty",
+      "startDate": "2/5/2014",
+      "endDate": "1/1/9999"
+    },
+    {
+      "id": "e220235f-ee22-4415-8a70-7df727771435",
+      "lineOFAuthority": "Property",
+      "startDate": "2/5/2014",
+      "endDate": "1/1/9999"
+    }
+  ]
+}

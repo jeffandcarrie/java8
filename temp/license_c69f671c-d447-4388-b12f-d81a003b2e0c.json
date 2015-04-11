@@ -1,0 +1,18 @@
+{
+  "id": "c69f671c-d447-4388-b12f-d81a003b2e0c",
+  "state": "WI",
+  "licenseNumber": "2634041",
+  "licenseType": "Surplus Lines",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "d4f7fa82-5f79-4b72-9a3c-270ae5567de4",
+      "lineOFAuthority": "No LOA needed",
+      "startDate": "4/3/2014",
+      "endDate": "7/31/2015"
+    }
+  ]
+}

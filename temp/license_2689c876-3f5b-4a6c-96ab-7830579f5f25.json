@@ -1,0 +1,42 @@
+{
+  "id": "2689c876-3f5b-4a6c-96ab-7830579f5f25",
+  "state": "KS",
+  "licenseNumber": "7435677",
+  "licenseType": "Agent",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "84cf3bd3-82bd-44a1-9305-2af011f9d161",
+      "lineOFAuthority": "Casualty",
+      "startDate": "7/19/2013",
+      "endDate": "7/26/2015"
+    },
+    {
+      "id": "682fd788-c128-4faf-a25c-5621731bc8d4",
+      "lineOFAuthority": "Crop",
+      "startDate": "7/19/2013",
+      "endDate": "7/26/2015"
+    },
+    {
+      "id": "6bd64276-dc25-486f-9e51-ce9cc28c5a53",
+      "lineOFAuthority": "Personal Lines",
+      "startDate": "7/19/2013",
+      "endDate": "7/26/2015"
+    },
+    {
+      "id": "5573203a-e780-4308-a697-46e4afb9da0d",
+      "lineOFAuthority": "Property",
+      "startDate": "7/19/2013",
+      "endDate": "7/26/2015"
+    },
+    {
+      "id": "c0b2f4a7-5957-4c2a-b980-11215141d7c6",
+      "lineOFAuthority": "No LOA needed",
+      "startDate": "10/25/2013",
+      "endDate": "5/1/2016"
+    }
+  ]
+}

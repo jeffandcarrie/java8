@@ -1,0 +1,30 @@
+{
+  "id": "04fa564d-024f-4ba2-bd07-a94d5c39c9ca",
+  "state": "OR",
+  "licenseNumber": "7435677",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "1cb9215c-ea17-4c6b-99ac-c90984f5476c",
+      "lineOFAuthority": "Casualty",
+      "startDate": "7/18/2013",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "79d57ed5-da36-4376-b98b-d671018e87e6",
+      "lineOFAuthority": "Property",
+      "startDate": "7/18/2013",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "3c510d23-8906-41b4-9496-6e19abd55241",
+      "lineOFAuthority": "Surplus Lines",
+      "startDate": "7/18/2013",
+      "endDate": "7/31/2015"
+    }
+  ]
+}

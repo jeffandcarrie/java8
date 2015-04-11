@@ -1,0 +1,24 @@
+{
+  "id": "c46b7f7e-ab5c-4bd6-bdad-1021d6e9b02b",
+  "state": "OK",
+  "licenseNumber": "100103167",
+  "licenseType": "Producer",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "ebcd778b-cb94-4515-8943-b2250effa8ea",
+      "lineOFAuthority": "Casualty",
+      "startDate": "9/17/2003",
+      "endDate": "9/30/2015"
+    },
+    {
+      "id": "627d3f72-82fd-4850-b0f2-8d109a4c1c66",
+      "lineOFAuthority": "Property",
+      "startDate": "9/17/2003",
+      "endDate": "9/30/2015"
+    }
+  ]
+}

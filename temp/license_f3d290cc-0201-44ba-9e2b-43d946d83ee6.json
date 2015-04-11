@@ -1,0 +1,18 @@
+{
+  "id": "f3d290cc-0201-44ba-9e2b-43d946d83ee6",
+  "state": "FL",
+  "licenseNumber": "L050220",
+  "licenseType": "Agency",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "050bba67-d1ef-4999-af91-c52372aea6fc",
+      "lineOFAuthority": "Lines Determined by Agent",
+      "startDate": "7/25/2007",
+      "endDate": "1/1/9999"
+    }
+  ]
+}

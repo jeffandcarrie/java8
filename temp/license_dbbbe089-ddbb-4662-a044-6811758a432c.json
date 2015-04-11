@@ -1,0 +1,18 @@
+{
+  "id": "dbbbe089-ddbb-4662-a044-6811758a432c",
+  "state": "NC",
+  "licenseNumber": "411888760",
+  "licenseType": "Corporation",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "92171eec-2a71-4f8d-b0cc-08d8a24bc7a1",
+      "lineOFAuthority": "No LOA Needed",
+      "startDate": "11/16/1999",
+      "endDate": "3/31/2016"
+    }
+  ]
+}

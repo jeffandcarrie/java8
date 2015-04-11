@@ -1,0 +1,24 @@
+{
+  "id": "520b6786-9346-43a5-8e83-dc95b81cc9a2",
+  "state": "MT",
+  "licenseNumber": "43189",
+  "licenseType": "Producer",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "e17cbc2a-04ee-44b8-9129-653d6a8a7aa3",
+      "lineOFAuthority": "Casualty",
+      "startDate": "12/9/1999",
+      "endDate": "1/1/9999"
+    },
+    {
+      "id": "e3f87601-b35c-4e8b-8eac-c9ec451a791f",
+      "lineOFAuthority": "Property",
+      "startDate": "12/9/1999",
+      "endDate": "1/1/9999"
+    }
+  ]
+}

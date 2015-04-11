@@ -1,0 +1,2254 @@
+[
+  {
+    "id": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+    "name": "The Travelers Companies, Inc.",
+    "contactName": "Kamal Agrawal",
+    "address1": "One Tower Square, CR10 Hartford, CT  06259",
+    "phone": "(860) 954-9581",
+    "contactEmail": "CT",
+    "domicileState": "CT",
+    "EIN": "999999999",
+    "producers": [
+      {
+        "id": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+        "name": "SPC Insurance Agency, Inc.",
+        "nipr": "3202300",
+        "producerType": "Agency",
+        "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+        "agencyName": "The Travelers Companies, Inc.",
+        "licenses": [
+          {
+            "id": "be43e8a4-ba0f-40fb-9e60-6e69069c7d67",
+            "state": "NY",
+            "licenseNumber": "PC-907440",
+            "licenseType": "Property/Casualty Agent",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "1a402843-2bae-4986-9001-020d24c3793a",
+                "lineOFAuthority": "Baggage",
+                "startDate": "7/1/2014",
+                "endDate": "6/30/2016"
+              },
+              {
+                "id": "b8ddff8b-02e6-4051-9554-475bd21541bb",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/1/2014",
+                "endDate": "6/30/2016"
+              },
+              {
+                "id": "f7219f1e-ab9e-4cea-88ec-ff8e435abac4",
+                "lineOFAuthority": "Personal Lines",
+                "startDate": "7/1/2014",
+                "endDate": "6/30/2016"
+              },
+              {
+                "id": "ca37af38-7e6f-4cf7-a45c-8d88bfa915d5",
+                "lineOFAuthority": "Property",
+                "startDate": "7/1/2014",
+                "endDate": "6/30/2016"
+              }
+            ]
+          },
+          {
+            "id": "977823ec-2efb-4273-868b-f02ec0367ce3",
+            "state": "AR",
+            "licenseNumber": "100106900",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "52ff969a-63cd-47ad-a1bb-4a37ec84e0d8",
+                "lineOFAuthority": "Casualty",
+                "startDate": "8/5/2003",
+                "endDate": "9/30/2015"
+              },
+              {
+                "id": "2ec3bcad-ce8e-4bef-98dd-b120a31ab6f6",
+                "lineOFAuthority": "Property",
+                "startDate": "8/5/2003",
+                "endDate": "9/30/2015"
+              }
+            ]
+          },
+          {
+            "id": "00647a9d-5bea-4513-a1de-7064a18f9ed4",
+            "state": "DE",
+            "licenseNumber": "0152672",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "2c8cd416-f5a1-44e4-b2bc-b17f0af2268d",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "12/9/1999",
+                "endDate": "2/28/2017"
+              }
+            ]
+          },
+          {
+            "id": "49a1d5bb-3d84-4a3b-b270-bd12c7039b89",
+            "state": "ID",
+            "licenseNumber": "84752",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "bddd16ac-908c-4956-bcf8-1a0ad4d6c100",
+                "lineOFAuthority": "Casualty",
+                "startDate": "5/22/2001",
+                "endDate": "6/1/2015"
+              },
+              {
+                "id": "ad251481-1feb-4f5f-b2d0-48c8a9fff687",
+                "lineOFAuthority": "Property",
+                "startDate": "5/22/2001",
+                "endDate": "6/1/2015"
+              }
+            ]
+          },
+          {
+            "id": "c6747389-cac7-4ec1-8a49-bad93d0d4daa",
+            "state": "SD",
+            "licenseNumber": "6190",
+            "licenseType": "Business Entity",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "9d65f18b-7dad-4c25-96be-b0c69f1bbd44",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "5/1/2001",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "e7f3dcc2-fdbe-4bde-830c-30e1b97bf47b",
+            "state": "CT",
+            "licenseNumber": "001039509",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "2656fd84-efbf-4308-9db0-bcff119cb4fe",
+                "lineOFAuthority": "Casualty",
+                "startDate": "2/1/2000",
+                "endDate": "1/31/2016"
+              },
+              {
+                "id": "2f1d0324-a41e-4feb-84b0-c93b348ee448",
+                "lineOFAuthority": "Credit Products",
+                "startDate": "2/1/2000",
+                "endDate": "1/31/2016"
+              },
+              {
+                "id": "b68beaea-dd7e-405c-bb15-b05d82f0bb1c",
+                "lineOFAuthority": "Property",
+                "startDate": "2/1/2000",
+                "endDate": "1/31/2016"
+              },
+              {
+                "id": "c3878400-2129-405f-8e09-fb226ee36ded",
+                "lineOFAuthority": "Travel Accident \u0026 Baggage",
+                "startDate": "2/1/2000",
+                "endDate": "1/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "040c2b95-b4f1-47db-b879-e5a2482d716d",
+            "state": "UT",
+            "licenseNumber": "97813",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "0a0a09f0-14a3-417a-bf25-20fa58f42fbc",
+                "lineOFAuthority": "Casualty",
+                "startDate": "5/16/2002",
+                "endDate": "4/30/2017"
+              },
+              {
+                "id": "d9d8ad35-64a1-457d-be46-78327f5fb3eb",
+                "lineOFAuthority": "Property",
+                "startDate": "5/16/2002",
+                "endDate": "4/30/2017"
+              }
+            ]
+          },
+          {
+            "id": "e7e4665f-3f8e-42ae-993a-9a1dc23262e8",
+            "state": "NE",
+            "licenseNumber": "100174631",
+            "licenseType": "Agency",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "9a8f90a9-7a8c-46e2-8993-29dd312b42c2",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "10/21/1999",
+                "endDate": "4/30/2016"
+              }
+            ]
+          },
+          {
+            "id": "bb833ad2-b30f-4c0d-982b-ecb671220cf9",
+            "state": "TX",
+            "licenseNumber": "13446",
+            "licenseType": "General Lines Agency/Agent",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "950fed7b-0401-4ea5-941b-d3aed23e0127",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "2/27/2002",
+                "endDate": "2/27/2016"
+              }
+            ]
+          },
+          {
+            "id": "99b5fe47-8e12-4cdf-9b21-056c348dd936",
+            "state": "MI",
+            "licenseNumber": "0021755",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "dd7de562-2b72-4d05-9ce1-3897f2451958",
+                "lineOFAuthority": "Casualty",
+                "startDate": "12/3/1999",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "36576915-c2c5-4f89-ad25-6f7797e66b45",
+                "lineOFAuthority": "Property",
+                "startDate": "12/3/1999",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "d657da33-50b2-404c-b1d5-a5f3a753f878",
+            "state": "WA",
+            "licenseNumber": "159498",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "97957c3a-8dce-43ae-826f-af854b4ff995",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/1/2009",
+                "endDate": "11/5/2015"
+              },
+              {
+                "id": "3bbdef5b-da2c-46ba-b409-035a58532929",
+                "lineOFAuthority": "Disability",
+                "startDate": "7/1/2009",
+                "endDate": "11/5/2015"
+              },
+              {
+                "id": "f7781207-60e9-4a38-b7b6-bbad31971d78",
+                "lineOFAuthority": "Life",
+                "startDate": "7/1/2009",
+                "endDate": "11/5/2015"
+              },
+              {
+                "id": "13955a98-7287-4f21-a1c9-0edfbc7dd608",
+                "lineOFAuthority": "Property",
+                "startDate": "7/1/2009",
+                "endDate": "11/5/2015"
+              }
+            ]
+          },
+          {
+            "id": "910471e8-4f03-4677-b1ce-3c04d40267c5",
+            "state": "ND",
+            "licenseNumber": "20291961",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "158a0299-4ae9-468e-900f-78d23fba49a2",
+                "lineOFAuthority": "Casualty",
+                "startDate": "10/29/1999",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "edc82db3-0dce-4c61-acb2-fddaa976d597",
+                "lineOFAuthority": "Property",
+                "startDate": "10/29/1999",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "d0e11d4d-039e-43d2-a13a-d110cf74113d",
+            "state": "MD",
+            "licenseNumber": "133339",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "4e24d206-4330-4646-aa32-777489812779",
+                "lineOFAuthority": "Casualty",
+                "startDate": "11/10/1999",
+                "endDate": "2/4/2016"
+              },
+              {
+                "id": "e93f88eb-35d5-4662-8b4e-31c0e93a4c1b",
+                "lineOFAuthority": "Property",
+                "startDate": "11/10/1999",
+                "endDate": "2/4/2016"
+              }
+            ]
+          },
+          {
+            "id": "a3c800da-a3b7-4502-b448-aacd1c28808a",
+            "state": "CA",
+            "licenseNumber": "0D60796",
+            "licenseType": "Insurance Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "9dfd8135-1738-4b95-bd99-7fdac96e7e37",
+                "lineOFAuthority": "Casualty Broker-Agent",
+                "startDate": "4/17/2002",
+                "endDate": "4/30/2016"
+              },
+              {
+                "id": "fda1ccb5-9e1c-4269-9fa5-b38b17f76404",
+                "lineOFAuthority": "Property Broker-Agent",
+                "startDate": "4/17/2002",
+                "endDate": "4/30/2016"
+              }
+            ]
+          },
+          {
+            "id": "499e6e50-8e05-44e1-a1d0-1dd1974f7266",
+            "state": "MA",
+            "licenseNumber": "1808490",
+            "licenseType": "Business Entity Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "b0578ada-a54f-457f-ae9e-89baa4accc6b",
+                "lineOFAuthority": "Casualty",
+                "startDate": "6/20/2005",
+                "endDate": "6/20/2015"
+              },
+              {
+                "id": "8a483438-6303-4260-bde7-9dab523f0b48",
+                "lineOFAuthority": "Property",
+                "startDate": "6/20/2005",
+                "endDate": "6/20/2015"
+              }
+            ]
+          },
+          {
+            "id": "06efd78c-6fcc-4e09-b8e9-7c1b546256ba",
+            "state": "OR",
+            "licenseNumber": "100161629",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "651b8946-28d6-4173-82b8-2cc255fdfe63",
+                "lineOFAuthority": "Casualty",
+                "startDate": "4/17/2001",
+                "endDate": "4/30/2017"
+              },
+              {
+                "id": "03d0ff79-1f44-4850-8a6a-307e5dcfdc93",
+                "lineOFAuthority": "Property",
+                "startDate": "4/17/2001",
+                "endDate": "4/30/2017"
+              }
+            ]
+          },
+          {
+            "id": "b6da2047-8bad-4dbe-8c22-96d746cc6a45",
+            "state": "KS",
+            "licenseNumber": "411888760-0",
+            "licenseType": "Agency",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "c4d2f08a-0a20-42f1-b6c6-b0925d367536",
+                "lineOFAuthority": "Lines Determined by Agent",
+                "startDate": "11/19/2001",
+                "endDate": "11/19/2015"
+              }
+            ]
+          },
+          {
+            "id": "db155d4b-4f66-4494-829d-a25635020b49",
+            "state": "WY",
+            "licenseNumber": "6991",
+            "licenseType": "Producer Firm",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "5d81785d-4c5d-4e33-ba7b-e28db46ef6bd",
+                "lineOFAuthority": "Casualty",
+                "startDate": "12/10/2001",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "90bbec8c-b469-4c6f-a5e5-bd3954f62551",
+                "lineOFAuthority": "Personal Lines",
+                "startDate": "12/10/2001",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "1e8d769f-0e94-4286-a49b-c5aaaf4945cd",
+                "lineOFAuthority": "Property",
+                "startDate": "12/10/2001",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "7ce43b97-f5b8-4939-a2dd-7296719c9d9a",
+            "state": "WV",
+            "licenseNumber": "100113960",
+            "licenseType": "Business Entity",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "5a4abe5d-5e36-45bf-9051-25cbeca39f0b",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "7/16/2003",
+                "endDate": "6/30/2015"
+              }
+            ]
+          },
+          {
+            "id": "74775b04-4054-4b99-8f34-fbfc3bdc5a77",
+            "state": "ME",
+            "licenseNumber": "AGN67254",
+            "licenseType": "Producer Business Entity",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "71d4274f-24ae-4490-b672-723e8d8bf75a",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "1/13/2000",
+                "endDate": "4/1/2017"
+              }
+            ]
+          },
+          {
+            "id": "520b6786-9346-43a5-8e83-dc95b81cc9a2",
+            "state": "MT",
+            "licenseNumber": "43189",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "e17cbc2a-04ee-44b8-9129-653d6a8a7aa3",
+                "lineOFAuthority": "Casualty",
+                "startDate": "12/9/1999",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "e3f87601-b35c-4e8b-8eac-c9ec451a791f",
+                "lineOFAuthority": "Property",
+                "startDate": "12/9/1999",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "f3d290cc-0201-44ba-9e2b-43d946d83ee6",
+            "state": "FL",
+            "licenseNumber": "L050220",
+            "licenseType": "Agency",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "050bba67-d1ef-4999-af91-c52372aea6fc",
+                "lineOFAuthority": "Lines Determined by Agent",
+                "startDate": "7/25/2007",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "0f048263-f69a-4404-8d61-839ad1714446",
+            "state": "PA",
+            "licenseNumber": "55917",
+            "licenseType": "Producer Agency",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "a13dc9be-1155-4dfd-bfba-e70f68993ccd",
+                "lineOFAuthority": "Casualty \u0026 Allied Lines",
+                "startDate": "12/28/2003",
+                "endDate": "12/28/2015"
+              },
+              {
+                "id": "781ac74b-e817-4ef2-81f1-07faacc33a7c",
+                "lineOFAuthority": "Property \u0026 Allied Lines",
+                "startDate": "12/28/2003",
+                "endDate": "12/28/2015"
+              }
+            ]
+          },
+          {
+            "id": "7663bad4-40bb-451a-a714-7d97776524e3",
+            "state": "VA",
+            "licenseNumber": "107823",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "3f700498-dcf6-4bb3-a116-7c18b1ba2898",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "10/27/1999",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "92453c16-978a-4d60-88a3-de8d061d5333",
+            "state": "SC",
+            "licenseNumber": "141901",
+            "licenseType": "Agency",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "db28215e-5bf1-413f-b87c-1e0ce1796741",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "11/9/1999",
+                "endDate": "12/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "dbbbe089-ddbb-4662-a044-6811758a432c",
+            "state": "NC",
+            "licenseNumber": "411888760",
+            "licenseType": "Corporation",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "92171eec-2a71-4f8d-b0cc-08d8a24bc7a1",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "11/16/1999",
+                "endDate": "3/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "02ab7816-00dd-4932-a4f8-66d6c6d6b145",
+            "state": "DC",
+            "licenseNumber": "9900586",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "baaa6e55-cda2-4c9b-9ee0-423fc1006ce1",
+                "lineOFAuthority": "Casualty",
+                "startDate": "5/1/1999",
+                "endDate": "5/31/2015"
+              },
+              {
+                "id": "604a77e1-de3b-4646-8a01-feeaf0b6fbc9",
+                "lineOFAuthority": "Property",
+                "startDate": "5/1/1999",
+                "endDate": "5/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "032105fc-ffc4-49d7-b0ad-96df275b2ff2",
+            "state": "OH",
+            "licenseNumber": "26104",
+            "licenseType": "Major Lines",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "0ba2861c-3426-47ef-bb28-5cdf7a42c1c3",
+                "lineOFAuthority": "Casualty",
+                "startDate": "5/1/2001",
+                "endDate": "9/30/2015"
+              },
+              {
+                "id": "7f9e62f3-e060-48e1-9edf-50419f688e80",
+                "lineOFAuthority": "Property",
+                "startDate": "5/1/2001",
+                "endDate": "9/30/2015"
+              },
+              {
+                "id": "4e39c49a-4733-4113-93bb-a0a4b6257502",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "5/1/2001",
+                "endDate": "9/30/2015"
+              }
+            ]
+          },
+          {
+            "id": "d38f2854-5dbf-4fd9-a272-810e4509cd63",
+            "state": "AZ",
+            "licenseNumber": "85864",
+            "licenseType": "Insurance Professional",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "65332e01-3669-450e-bdba-3149438dc824",
+                "lineOFAuthority": "Business Authority \u003d Individual Authority",
+                "startDate": "6/10/2010",
+                "endDate": "11/30/2017"
+              }
+            ]
+          },
+          {
+            "id": "bac0ac5f-1d81-4aa2-9961-876785277c28",
+            "state": "NH",
+            "licenseNumber": "0354148",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "3a897310-2dd5-4fae-a89a-c6874aa7e372",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "4/24/2001",
+                "endDate": "5/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "3d700765-6b85-4a63-b8bf-50cdb65c144e",
+            "state": "MN",
+            "licenseNumber": "20127449",
+            "licenseType": "Resident Agency",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "742f91d4-ef3c-426e-83f7-8506b4b35668",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "3/3/1998",
+                "endDate": "10/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "e7279303-9e28-42c1-9a6f-f458e140ec4c",
+            "state": "GA",
+            "licenseNumber": "99432",
+            "licenseType": "Casualty",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "50103fac-b268-4a22-8e19-46d4e5e5615e",
+                "lineOFAuthority": "Principal Agency",
+                "startDate": "7/18/2001",
+                "endDate": "12/31/2016"
+              },
+              {
+                "id": "b6278373-3af0-4e74-9763-5b66e74f2ed1",
+                "lineOFAuthority": "Principal Agency",
+                "startDate": "7/18/2001",
+                "endDate": "12/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "d3e75ab0-88f4-483d-8881-bece103ea606",
+            "state": "IL",
+            "licenseNumber": "100306923",
+            "licenseType": "Business Entity Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "849ef834-1024-4a0d-965c-a10c4fd90649",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "6/23/2003",
+                "endDate": "5/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "ef92a8d9-64e0-4289-83b5-d1d77888a5bd",
+            "state": "NJ",
+            "licenseNumber": "9954442",
+            "licenseType": "Producer - Organization (Corp)",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "ef8e6599-6df0-469c-911c-62def3d3b242",
+                "lineOFAuthority": "Casualty",
+                "startDate": "12/16/1999",
+                "endDate": "5/31/2015"
+              },
+              {
+                "id": "e2992353-a796-4be9-bd4d-ce0ce4b9320c",
+                "lineOFAuthority": "Personal Lines",
+                "startDate": "12/16/1999",
+                "endDate": "5/31/2015"
+              },
+              {
+                "id": "d8af6d95-afa9-4e32-8c57-8c35b78584dd",
+                "lineOFAuthority": "Property",
+                "startDate": "12/16/1999",
+                "endDate": "5/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "dda74a5c-826a-47fb-a7cd-44b7292bf975",
+            "state": "IN",
+            "licenseNumber": "30365",
+            "licenseType": "Producer - Organization (Corp)",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "242eef4f-9325-4850-8a1c-d2cc68186f32",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "6/16/2000",
+                "endDate": "1/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "f6c66073-dcaf-447f-9832-0a34a04289d4",
+            "state": "MO",
+            "licenseNumber": "8009764",
+            "licenseType": "Business Entity Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "6f8f34cb-2196-438c-8a39-0298810aa16e",
+                "lineOFAuthority": "Lines Determined by Agent",
+                "startDate": "11/2/1999",
+                "endDate": "11/2/2015"
+              }
+            ]
+          },
+          {
+            "id": "d4a3bf7f-bb32-4547-a6e5-dda2e106e051",
+            "state": "LA",
+            "licenseNumber": "259045",
+            "licenseType": "Producer Agency",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "647b4bfe-f744-4197-9e98-bdca24595df9",
+                "lineOFAuthority": "Casualty",
+                "startDate": "12/1/1999",
+                "endDate": "4/30/2017"
+              },
+              {
+                "id": "38d4c1aa-2f7d-4990-80b9-dd732a3dc561",
+                "lineOFAuthority": "Property",
+                "startDate": "12/1/1999",
+                "endDate": "4/30/2017"
+              }
+            ]
+          },
+          {
+            "id": "0cc6e558-6fce-4ac9-be3c-9de4c0eeebe0",
+            "state": "NM",
+            "licenseNumber": "550060",
+            "licenseType": "Firm",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "b29e05c0-23b0-4230-b033-a8343a134e63",
+                "lineOFAuthority": "Casualty \u0026 Surety",
+                "startDate": "12/12/2001",
+                "endDate": "4/30/2015"
+              },
+              {
+                "id": "0c66ff1b-1d7f-49be-bd32-124d425cb2c6",
+                "lineOFAuthority": "Property, Marine, and Transportation",
+                "startDate": "12/12/2001",
+                "endDate": "4/30/2015"
+              }
+            ]
+          },
+          {
+            "id": "5c4a13c2-a25a-416c-8ba4-17ca7b78931b",
+            "state": "CO",
+            "licenseNumber": "99561",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "05295f9f-0d8c-4443-ab3e-60d0a51a4fc7",
+                "lineOFAuthority": "Casualty",
+                "startDate": "10/29/1999",
+                "endDate": "12/1/2016"
+              },
+              {
+                "id": "61590dee-1990-4746-ba00-9b1d5b8e3d14",
+                "lineOFAuthority": "Property",
+                "startDate": "10/29/1999",
+                "endDate": "12/1/2016"
+              }
+            ]
+          },
+          {
+            "id": "3c8487f0-ce3e-4ab8-9be6-9118a4d9853f",
+            "state": "MS",
+            "licenseNumber": "107713",
+            "licenseType": "Insurance Producer Entity",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "12891408-8eb9-417c-a0a1-f5159d81a7a5",
+                "lineOFAuthority": "No LOA Needed",
+                "startDate": "10/27/2009",
+                "endDate": "5/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "c46b7f7e-ab5c-4bd6-bdad-1021d6e9b02b",
+            "state": "OK",
+            "licenseNumber": "100103167",
+            "licenseType": "Producer",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "ebcd778b-cb94-4515-8943-b2250effa8ea",
+                "lineOFAuthority": "Casualty",
+                "startDate": "9/17/2003",
+                "endDate": "9/30/2015"
+              },
+              {
+                "id": "627d3f72-82fd-4850-b0f2-8d109a4c1c66",
+                "lineOFAuthority": "Property",
+                "startDate": "9/17/2003",
+                "endDate": "9/30/2015"
+              }
+            ]
+          },
+          {
+            "id": "69f47b52-4275-49c8-a572-e9e020781d9b",
+            "state": "KY",
+            "licenseNumber": "DOI-525796",
+            "licenseType": "Agent",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "40f2b616-672f-462a-9e2f-e11d324d0a1d",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/5/2001",
+                "endDate": "3/31/2017"
+              },
+              {
+                "id": "5fc8f1eb-a501-49ca-a66f-be35ace6d042",
+                "lineOFAuthority": "Property",
+                "startDate": "7/5/2001",
+                "endDate": "3/31/2017"
+              }
+            ]
+          },
+          {
+            "id": "63eb0d34-607f-438b-bbd5-e6214c8b3231",
+            "state": "NV",
+            "licenseNumber": "9054",
+            "licenseType": "Producer/Producer Firm",
+            "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+            "agencyName": "The Travelers Companies, Inc.",
+            "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+            "producerName": "SPC Insurance Agency, Inc.",
+            "licenseDetails": [
+              {
+                "id": "f888e3d4-5cbe-45de-bd55-164f1da3763a",
+                "lineOFAuthority": "Casualty",
+                "startDate": "10/1/2001",
+                "endDate": "5/1/2015"
+              },
+              {
+                "id": "7d04399f-42ff-4c3f-96ca-dfda6acb2389",
+                "lineOFAuthority": "Property",
+                "startDate": "10/1/2001",
+                "endDate": "5/1/2015"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+    "name": "Cordogan Insurance Agency",
+    "contactName": "Michael Cordogan",
+    "address1": "154 Timber Creek Dr., Ste. 2, Cordova, TN 38018",
+    "phone": "901-309-5585",
+    "contactEmail": "mike@farmersemail.com",
+    "domicileState": "TN",
+    "EIN": "899999999",
+    "producers": [
+      {
+        "id": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+        "name": "Michael William Cordogan",
+        "nipr": "7435677",
+        "producerType": "Individual",
+        "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+        "agencyName": "Cordogan Insurance Agency",
+        "licenses": [
+          {
+            "id": "caaf12da-c867-4c4e-bf96-019c1076ee1e",
+            "state": "UT",
+            "licenseNumber": "476311",
+            "licenseType": "Surplus Lines",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "672df9e7-ad73-4549-92aa-4c1cef97b3eb",
+                "lineOFAuthority": "Surplus Lines - Casualty",
+                "startDate": "2/7/2014",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "428fbea2-b9ee-451b-9fd3-b00d9c55b847",
+                "lineOFAuthority": "Surplus Lines - Property",
+                "startDate": "2/7/2014",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "390d282f-115d-4320-b1df-5c4c5392dae3",
+            "state": "ME",
+            "licenseNumber": "PRN245023",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "df4e4269-3fe8-4a90-8dd8-db11fc13709d",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "1/20/2015",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "83dba180-06b2-473b-b4ce-bd941ff0cac2",
+            "state": "PA",
+            "licenseNumber": "686907",
+            "licenseType": "Surplus Lines",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "c9f08a26-c2bd-4396-944e-d04630dde96e",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "12/12/2013",
+                "endDate": "7/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "275403ad-798c-4359-9a6d-e583d494a604",
+            "state": "MI",
+            "licenseNumber": "7435677",
+            "licenseType": "Surplus Lines",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "f3fbac88-67b0-4776-a01f-b86199d3e2ce",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "11/7/2013",
+                "endDate": "3/31/2015"
+              },
+              {
+                "id": "ee21e3aa-3340-4393-b76d-d3d94dac222f",
+                "lineOFAuthority": "Casualty",
+                "startDate": "4/10/2012",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "9ae932c8-ba87-43fb-a4ec-8e548e82a6c1",
+                "lineOFAuthority": "Property",
+                "startDate": "4/10/2012",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "e7311781-8ea0-4e1a-9330-85865ea8a48d",
+            "state": "UT",
+            "licenseNumber": "453666",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "d36f4ada-a486-40e5-b1be-2b4b01d2248a",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/31/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "767e045a-fe0a-4310-bb4b-c4f90fc2f0d6",
+                "lineOFAuthority": "Property",
+                "startDate": "7/31/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "965c9edb-a782-4a5b-a907-c9bf25aa33f7",
+            "state": "WV",
+            "licenseNumber": "7435677",
+            "licenseType": "Surplus Lines",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "826ebf8c-6814-4e28-99b3-342ef617cef3",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "3/5/2014",
+                "endDate": "5/31/2015"
+              },
+              {
+                "id": "41a61fef-2682-42ad-9462-240726495535",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "eb05853e-7b17-49e4-95f9-c864ef752e45",
+                "lineOFAuthority": "Property",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "2d676b99-4c5b-4915-97d0-dad9646f2e65",
+            "state": "MA",
+            "licenseNumber": "1973335",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "967ac62b-049c-4460-a2dd-19c4c37ba59b",
+                "lineOFAuthority": "Casualty",
+                "startDate": "1/20/2015",
+                "endDate": "7/26/2017"
+              },
+              {
+                "id": "4426491f-3254-4fb0-b8c0-8cbb0cc45621",
+                "lineOFAuthority": "Property",
+                "startDate": "1/20/2015",
+                "endDate": "7/26/2017"
+              }
+            ]
+          },
+          {
+            "id": "dca0c387-dec8-4f89-a92d-b6e0c54ad6d7",
+            "state": "TX",
+            "licenseNumber": "1872228",
+            "licenseType": "Surplus Lines Agency/Agent",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "469f079b-9ab7-48e2-bf16-9b507085086d",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "12/10/2013",
+                "endDate": "12/10/2015"
+              }
+            ]
+          },
+          {
+            "id": "1cdf9b80-b5fa-4a71-abac-9bf82a29e992",
+            "state": "IL",
+            "licenseNumber": "7435677",
+            "licenseType": "Surplus Lines Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "60f0c5bc-e46f-4b6d-bbf8-d13c30c79827",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "1/23/2014",
+                "endDate": "1/23/2016"
+              },
+              {
+                "id": "5779493b-fdff-49b6-bdea-84ff7bf8431e",
+                "lineOFAuthority": "Casualty",
+                "startDate": "11/17/2006",
+                "endDate": "7/31/2016"
+              },
+              {
+                "id": "682ea4fb-4704-41df-ac5c-6cf2f2cf8dd5",
+                "lineOFAuthority": "Health",
+                "startDate": "11/17/2006",
+                "endDate": "7/31/2016"
+              },
+              {
+                "id": "3bed5a0b-8115-40f1-9103-2d5a6f883979",
+                "lineOFAuthority": "Life",
+                "startDate": "11/17/2006",
+                "endDate": "7/31/2016"
+              },
+              {
+                "id": "64080f97-6fce-4c42-b9c1-beb4932d7928",
+                "lineOFAuthority": "Property",
+                "startDate": "11/17/2006",
+                "endDate": "7/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "04fa564d-024f-4ba2-bd07-a94d5c39c9ca",
+            "state": "OR",
+            "licenseNumber": "7435677",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "1cb9215c-ea17-4c6b-99ac-c90984f5476c",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "79d57ed5-da36-4376-b98b-d671018e87e6",
+                "lineOFAuthority": "Property",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "3c510d23-8906-41b4-9496-6e19abd55241",
+                "lineOFAuthority": "Surplus Lines",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "c69f671c-d447-4388-b12f-d81a003b2e0c",
+            "state": "WI",
+            "licenseNumber": "2634041",
+            "licenseType": "Surplus Lines",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "d4f7fa82-5f79-4b72-9a3c-270ae5567de4",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "4/3/2014",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "8fe1e1d4-0682-4fec-a90e-e222e99d2c90",
+            "state": "MS",
+            "licenseNumber": "10059302",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "384c62b3-04e1-4b9f-af73-8ac36ff93d0d",
+                "lineOFAuthority": "Accident \u0026 Health",
+                "startDate": "10/27/2009",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "71216337-6d34-482a-896b-8206d89d04dd",
+                "lineOFAuthority": "Casualty",
+                "startDate": "10/27/2009",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "e0a37dac-bbc4-4c8e-bd4b-d99db5de3cb4",
+                "lineOFAuthority": "Life",
+                "startDate": "10/27/2009",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "9c0213cd-fc12-44f9-88eb-fc68bb02fdd3",
+                "lineOFAuthority": "Property",
+                "startDate": "10/27/2009",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "41d88657-aceb-447b-8956-2f5f1043b1ad",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "10/27/2009",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "901aaba1-7c80-4bdc-abf1-32b073871916",
+            "state": "MT",
+            "licenseNumber": "100130445",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "879f7f23-70c4-406a-bf5a-7ce35e994677",
+                "lineOFAuthority": "Casualty",
+                "startDate": "2/1/2015",
+                "endDate": "7/31/2017"
+              },
+              {
+                "id": "dc3003b1-1fef-4341-8a22-7681bb517e65",
+                "lineOFAuthority": "Property",
+                "startDate": "2/1/2015",
+                "endDate": "7/31/2017"
+              }
+            ]
+          },
+          {
+            "id": "7c38de56-97a4-48a5-8df7-a88861f1e631",
+            "state": "WI",
+            "licenseNumber": "2620875",
+            "licenseType": "Intermediary",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "1207f94b-b4b0-49a3-a039-deec5aa846e8",
+                "lineOFAuthority": "Casualty",
+                "startDate": "9/2/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "b4294db2-37e8-4404-b653-ee1bbc6fadec",
+                "lineOFAuthority": "Property",
+                "startDate": "9/2/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "2689c876-3f5b-4a6c-96ab-7830579f5f25",
+            "state": "KS",
+            "licenseNumber": "7435677",
+            "licenseType": "Agent",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "84cf3bd3-82bd-44a1-9305-2af011f9d161",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/19/2013",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "682fd788-c128-4faf-a25c-5621731bc8d4",
+                "lineOFAuthority": "Crop",
+                "startDate": "7/19/2013",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "6bd64276-dc25-486f-9e51-ce9cc28c5a53",
+                "lineOFAuthority": "Personal Lines",
+                "startDate": "7/19/2013",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "5573203a-e780-4308-a697-46e4afb9da0d",
+                "lineOFAuthority": "Property",
+                "startDate": "7/19/2013",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "c0b2f4a7-5957-4c2a-b980-11215141d7c6",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "10/25/2013",
+                "endDate": "5/1/2016"
+              }
+            ]
+          },
+          {
+            "id": "297d5e8d-a40a-4a63-976d-36bd793e7b80",
+            "state": "DC",
+            "licenseNumber": "3071779",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "61db12a4-d3f9-4d1c-bfb7-70da567d1c24",
+                "lineOFAuthority": "Casualty",
+                "startDate": "2/3/2015",
+                "endDate": "7/31/2017"
+              },
+              {
+                "id": "ad8230f8-c54b-4096-a5c0-796e867f46bd",
+                "lineOFAuthority": "Property",
+                "startDate": "2/3/2015",
+                "endDate": "7/31/2017"
+              }
+            ]
+          },
+          {
+            "id": "1e40c266-c1f8-4e0d-acf3-f6596c8cd83c",
+            "state": "TN",
+            "licenseNumber": "87579",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "62b2580f-4f9a-4a69-9954-961e4e5af2bb",
+                "lineOFAuthority": "Casualty",
+                "startDate": "9/19/2002",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "dec62cf8-271e-4cdd-a47b-270f161bf66b",
+                "lineOFAuthority": "Property",
+                "startDate": "9/19/2002",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "48bfcd25-0dcf-4486-abf7-c3223fac134e",
+                "lineOFAuthority": "Accident \u0026 Health",
+                "startDate": "10/2/2002",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "e0c9bf8a-b36c-4663-8ff8-eaebdb5e1ead",
+                "lineOFAuthority": "Life",
+                "startDate": "10/2/2002",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "fa7f3892-8b3d-43c9-b509-ddb0b35bbcb5",
+                "lineOFAuthority": "Variable Contracts",
+                "startDate": "8/11/2003",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "d239b4e3-b1ec-4f2b-ae58-39026bc7bd34",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "4/19/2007",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "7c8a4c83-7a42-402e-87ee-9b4e04920fd0",
+            "state": "AK",
+            "licenseNumber": "100115225",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "43509347-2810-458f-9c3b-34eb770ab58c",
+                "lineOFAuthority": "Casualty",
+                "startDate": "2/1/2015",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "9363c290-d6e5-4bd2-abe2-2af9918e84f7",
+                "lineOFAuthority": "Property",
+                "startDate": "2/1/2015",
+                "endDate": "7/26/2015"
+              }
+            ]
+          },
+          {
+            "id": "11c79328-5ccc-4e26-947b-96c5346800b5",
+            "state": "NV",
+            "licenseNumber": "931988",
+            "licenseType": "Surplus Lines Broker",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "9f9fe7cd-4b16-4536-86be-5f9a585822ad",
+                "lineOFAuthority": "Surplus Lines",
+                "startDate": "1/24/2014",
+                "endDate": "2/1/2017"
+              }
+            ]
+          },
+          {
+            "id": "178a1c57-78f9-49de-8800-9127007b3326",
+            "state": "PA",
+            "licenseNumber": "671927",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "48300488-174e-4347-b1f5-7db690991353",
+                "lineOFAuthority": "Casualty \u0026 Allied Lines",
+                "startDate": "7/30/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "6ed88328-ff61-4e03-b8af-99a430396a3f",
+                "lineOFAuthority": "Property \u0026 Allied Lines",
+                "startDate": "7/30/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "2ad4b621-d5e9-4f26-a750-89238d6d268f",
+            "state": "DE",
+            "licenseNumber": "1356735",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "96053a2b-05b7-4f30-acc9-36bd15643642",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/7/2014",
+                "endDate": "2/28/2017"
+              },
+              {
+                "id": "774e5bed-b680-4d01-9f35-5584a57f3a50",
+                "lineOFAuthority": "Personal Lines",
+                "startDate": "7/7/2014",
+                "endDate": "2/28/2017"
+              },
+              {
+                "id": "666af1da-715a-42ef-a6d4-426950ad4893",
+                "lineOFAuthority": "Property",
+                "startDate": "7/7/2014",
+                "endDate": "2/28/2017"
+              }
+            ]
+          },
+          {
+            "id": "db59a441-79b2-4bf9-be82-542d317bf562",
+            "state": "VT",
+            "licenseNumber": "1014608",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "9d7d55e2-bc4f-4352-a67e-647e7b6d6160",
+                "lineOFAuthority": "Casualty",
+                "startDate": "2/2/2015",
+                "endDate": "3/31/2015"
+              },
+              {
+                "id": "4536ac3d-6868-4eb3-86d1-af80c4774218",
+                "lineOFAuthority": "Property",
+                "startDate": "2/2/2015",
+                "endDate": "3/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "ff271bfd-4c71-4910-b2de-3d36577b1759",
+            "state": "IN",
+            "licenseNumber": "812811",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "9daba866-63e6-4eea-9d03-abaf5c76f317",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "4/10/2012",
+                "endDate": "7/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "07e41603-cd30-4fca-8d94-9bbe662fd48e",
+            "state": "NJ",
+            "licenseNumber": "1530106",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "21ce137f-0696-48f2-92f7-2e21fa261536",
+                "lineOFAuthority": "Casualty",
+                "startDate": "9/2/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "eeb86c59-da5c-4d54-b802-819a8d94f9ef",
+                "lineOFAuthority": "Personal Lines",
+                "startDate": "9/2/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "74d03578-71c3-466c-9ebe-b80f2583a773",
+                "lineOFAuthority": "Property",
+                "startDate": "9/2/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "bcc9ae55-a63b-4f75-9b2a-b70e16e52338",
+                "lineOFAuthority": "Surplus Lines",
+                "startDate": "10/22/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "f698651b-422a-4bfd-8725-5018445b875c",
+            "state": "OH",
+            "licenseNumber": "958379",
+            "licenseType": "Major Lines",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "2d278e6c-ef87-4fa2-87e9-51071f5b5a1e",
+                "lineOFAuthority": "Casualty",
+                "startDate": "4/10/2012",
+                "endDate": "7/31/2016"
+              },
+              {
+                "id": "f38d11ee-ae63-4f1d-ad7d-cf9a6bb99321",
+                "lineOFAuthority": "Property",
+                "startDate": "4/10/2012",
+                "endDate": "7/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "06485ed8-0b9b-4a63-8c54-193781f1799c",
+            "state": "NV",
+            "licenseNumber": "871287",
+            "licenseType": "Producer/Producer Firm",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "76cbcd9c-43ab-4053-b5c5-b1fbbf6cbc3d",
+                "lineOFAuthority": "Casualty",
+                "startDate": "3/22/2013",
+                "endDate": "4/1/2016"
+              },
+              {
+                "id": "9a8d815f-8a75-48dd-86ee-956eb08db4f9",
+                "lineOFAuthority": "Property",
+                "startDate": "3/22/2013",
+                "endDate": "4/1/2016"
+              }
+            ]
+          },
+          {
+            "id": "7bc4a534-4041-4543-a07d-39f421926aa9",
+            "state": "IA",
+            "licenseNumber": "7435677",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "1b270c5e-0d1e-4d85-9c38-22ae95b9e400",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2016"
+              },
+              {
+                "id": "cc117947-70b8-446a-98d8-d2cd790ded31",
+                "lineOFAuthority": "Property",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2016"
+              },
+              {
+                "id": "9e6d78fb-25fe-4ebc-8e55-d5f45d45be94",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "10/25/2013",
+                "endDate": "7/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "58860a9b-c6cd-4184-af84-b3de37cb6f7b",
+            "state": "AL",
+            "licenseNumber": "536255",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "d02f4507-a725-48cd-81c4-33444bc9e2c2",
+                "lineOFAuthority": "Casualty",
+                "startDate": "3/22/2012",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "19ed18e8-63c7-4bd8-8576-d994e8dfe034",
+                "lineOFAuthority": "Property",
+                "startDate": "3/22/2012",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "241367a6-9f95-4ff6-ab7b-92db428d55ce",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "1/3/2014",
+                "endDate": "12/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "48ee9ce8-5317-46b3-9840-de62568cd6ab",
+            "state": "GA",
+            "licenseNumber": "2853943",
+            "licenseType": "Agent",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "5c14a096-0013-46f8-8ee1-3895b326d5b8",
+                "lineOFAuthority": "Casualty",
+                "startDate": "4/9/2012",
+                "endDate": "7/31/2016"
+              },
+              {
+                "id": "0908597f-4015-4c53-a2c4-6b5283faa956",
+                "lineOFAuthority": "Property",
+                "startDate": "4/9/2012",
+                "endDate": "7/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "b41ce0c2-a649-4459-a721-e69e2aa01488",
+            "state": "TX",
+            "licenseNumber": "1756158",
+            "licenseType": "General Lines Agency/Agent",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "3d4842cf-af64-4acb-97fd-b812bd19b3ed",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "4/5/2012",
+                "endDate": "4/5/2016"
+              }
+            ]
+          },
+          {
+            "id": "004d7929-16e9-4c7a-8bfd-92aea4bdef06",
+            "state": "OK",
+            "licenseNumber": "100164871",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "b97aa0b2-7c4a-4ee0-97d9-b01444673319",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "68074618-4636-4089-ab43-2de3653e7748",
+                "lineOFAuthority": "Property",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "3fbb116a-c554-4d5b-8157-5d6838f256a7",
+            "state": "SD",
+            "licenseNumber": "40382166",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "0550ed17-b440-4bf2-a1b0-4faf1af78b53",
+                "lineOFAuthority": "Casualty",
+                "startDate": "2/1/2015",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "1bad5c31-a596-4fa1-9826-03036a17760c",
+                "lineOFAuthority": "Property",
+                "startDate": "2/1/2015",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "285026a1-18cb-4819-8f60-40db1f14a02b",
+            "state": "SC",
+            "licenseNumber": "691026",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "e2eea935-3f3d-465c-8f3d-d074e6ac5b56",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/19/2013",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "095e5bf3-2c63-4b60-a188-55e18fad8bf7",
+                "lineOFAuthority": "Property",
+                "startDate": "7/19/2013",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "d43f1d13-6dad-4f50-80c0-a27a6be6ed2c",
+                "lineOFAuthority": "Casualty",
+                "startDate": "2/5/2014",
+                "endDate": "1/1/9999"
+              },
+              {
+                "id": "e220235f-ee22-4415-8a70-7df727771435",
+                "lineOFAuthority": "Property",
+                "startDate": "2/5/2014",
+                "endDate": "1/1/9999"
+              }
+            ]
+          },
+          {
+            "id": "0152c218-e9d2-4a7e-b0ad-26ceb674fe23",
+            "state": "CT",
+            "licenseNumber": "002481576",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "e7bf098f-3570-4aca-aadd-f747123f1824",
+                "lineOFAuthority": "Casualty",
+                "startDate": "1/19/2015",
+                "endDate": "7/26/2016"
+              },
+              {
+                "id": "b6daa4f0-ce53-4e35-b5e1-0b1b4993ee28",
+                "lineOFAuthority": "Credit Products",
+                "startDate": "1/19/2015",
+                "endDate": "7/26/2016"
+              },
+              {
+                "id": "10558d71-2f86-4bfe-bf7e-baed49d56992",
+                "lineOFAuthority": "Property",
+                "startDate": "1/19/2015",
+                "endDate": "7/26/2016"
+              },
+              {
+                "id": "2b4ac84a-2bef-4356-9b83-6cb86f66e70f",
+                "lineOFAuthority": "Travel Accident \u0026 Baggage",
+                "startDate": "1/19/2015",
+                "endDate": "7/26/2016"
+              }
+            ]
+          },
+          {
+            "id": "3fd6373f-8cad-48e0-90dd-25e53c56bc82",
+            "state": "ID",
+            "licenseNumber": "516151",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "98a87ca5-bb41-4098-a9f7-07beaa0b7b7a",
+                "lineOFAuthority": "Casualty",
+                "startDate": "1/20/2015",
+                "endDate": "7/31/2017"
+              },
+              {
+                "id": "56ecebba-f45a-4aff-a647-d1541cac619e",
+                "lineOFAuthority": "Property",
+                "startDate": "1/20/2015",
+                "endDate": "7/31/2017"
+              }
+            ]
+          },
+          {
+            "id": "716995b3-d707-4278-86e5-50fbf689476f",
+            "state": "AZ",
+            "licenseNumber": "1051767",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "d06d3a55-3256-49ea-81be-fae258ff358a",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/30/2013",
+                "endDate": "7/31/2017"
+              },
+              {
+                "id": "667d6d16-788a-41a5-a5f4-38f8cdc8164e",
+                "lineOFAuthority": "Property",
+                "startDate": "7/30/2013",
+                "endDate": "7/31/2017"
+              }
+            ]
+          },
+          {
+            "id": "f3cf0d74-590c-47ea-8c07-699cbe6ef069",
+            "state": "MN",
+            "licenseNumber": "40350106",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "c1a470ef-dfaf-4adb-9c1a-7ecf63d7d818",
+                "lineOFAuthority": "Casualty",
+                "startDate": "9/3/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "c46ad2e8-dc4c-4a61-9987-f5ec56b6295e",
+                "lineOFAuthority": "Property",
+                "startDate": "9/3/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "da462fc8-fd56-41c6-b192-095db41bade6",
+            "state": "MD",
+            "licenseNumber": "2117360",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "255389bb-6c13-45b6-85bf-62a2dadc103c",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "45ae712a-7989-460d-8d16-7dd8734ccee6",
+                "lineOFAuthority": "Property",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "b8d9a37b-6226-49a8-a7f0-6def4909f6de",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "1/23/2014",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "980736d4-a1fe-4106-a266-15354abcf8bf",
+            "state": "CO",
+            "licenseNumber": "470325",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "988e6b51-b82e-46ad-8e1b-cc242f6f59eb",
+                "lineOFAuthority": "Casualty",
+                "startDate": "1/22/2015",
+                "endDate": "7/31/2016"
+              },
+              {
+                "id": "81d8aa38-b14a-4d73-9bcc-129dcb5834ea",
+                "lineOFAuthority": "Property",
+                "startDate": "1/22/2015",
+                "endDate": "7/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "cb286c22-eb96-4e2e-9cfb-101c808f64e6",
+            "state": "AR",
+            "licenseNumber": "7435677",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "da7f5815-7ce6-4898-a571-a9d712e0f970",
+                "lineOFAuthority": "Casualty",
+                "startDate": "4/5/2012",
+                "endDate": "7/26/2016"
+              },
+              {
+                "id": "09a08859-8362-4576-af25-347a86988565",
+                "lineOFAuthority": "Property",
+                "startDate": "4/5/2012",
+                "endDate": "7/26/2016"
+              }
+            ]
+          },
+          {
+            "id": "640a52d8-8d73-408a-8538-7cec52970aba",
+            "state": "WA",
+            "licenseNumber": "806694",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "03ad6329-3af8-4188-baa0-9b10698c7dbf",
+                "lineOFAuthority": "Casualty",
+                "startDate": "4/10/2012",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "d473272a-d212-4d03-8f89-3709a291d45e",
+                "lineOFAuthority": "Disability",
+                "startDate": "4/10/2012",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "a434a87d-9ebf-4c5d-a2a9-9fcb1a4e6cbd",
+                "lineOFAuthority": "Life",
+                "startDate": "4/10/2012",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "4704e798-6509-4d8f-9cf3-dc04a6c8f0ed",
+                "lineOFAuthority": "Property",
+                "startDate": "4/10/2012",
+                "endDate": "7/26/2015"
+              },
+              {
+                "id": "1695138d-c000-4589-adf0-aa363318681c",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "8/13/2014",
+                "endDate": "7/26/2015"
+              }
+            ]
+          },
+          {
+            "id": "058e5be9-2653-45e1-bfd3-d1eea59a9337",
+            "state": "MO",
+            "licenseNumber": "8295433",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "c3571ef3-4580-4622-a6fc-72d1ad697da5",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/18/2013",
+                "endDate": "7/18/2015"
+              },
+              {
+                "id": "1e424f28-5a40-4c37-a324-07ba1f478e6b",
+                "lineOFAuthority": "Property",
+                "startDate": "7/18/2013",
+                "endDate": "7/18/2015"
+              },
+              {
+                "id": "502eefa4-9e02-463f-8b65-b0b27c0730a2",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "10/25/2013",
+                "endDate": "10/25/2015"
+              }
+            ]
+          },
+          {
+            "id": "115fbd0e-fcf1-4f51-a186-ed904ec5cf37",
+            "state": "NE",
+            "licenseNumber": "7435677",
+            "licenseType": "Producer",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "816e0432-7538-4ebd-bb50-d904cf61c91b",
+                "lineOFAuthority": "Casualty",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              },
+              {
+                "id": "ffeed371-08fb-452e-85f9-3f516e0d6f30",
+                "lineOFAuthority": "Property",
+                "startDate": "7/18/2013",
+                "endDate": "7/31/2015"
+              }
+            ]
+          },
+          {
+            "id": "63120584-48cc-4c95-90d9-697854ef44ac",
+            "state": "IN",
+            "licenseNumber": "915961",
+            "licenseType": "Surplus Lines",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "9903d393-7e4b-41ab-ae8a-d62e997c163a",
+                "lineOFAuthority": "No LOA needed",
+                "startDate": "10/28/2013",
+                "endDate": "7/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "1c13c2da-d2c4-4b99-8a3c-4c5be12cdbc8",
+            "state": "OH",
+            "licenseNumber": "1019611",
+            "licenseType": "Surplus Lines",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "4fe1c414-b088-4cfc-9ee3-0a92abe4b775",
+                "lineOFAuthority": "Surplus Lines",
+                "startDate": "3/3/2014",
+                "endDate": "1/31/2016"
+              }
+            ]
+          },
+          {
+            "id": "52c5c654-7a1f-4bc4-b9f5-e6adf67c620a",
+            "state": "VA",
+            "licenseNumber": "878090",
+            "licenseType": "Surplus Lines Broker",
+            "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+            "agencyName": "Cordogan Insurance Agency",
+            "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+            "producerName": "Michael William Cordogan",
+            "licenseDetails": [
+              {
+                "id": "06e2a763-534f-4556-9f75-8b262813a353",
+                "lineOFAuthority": "Surplus Lines",
+                "startDate": "11/4/2013",
+                "endDate": "6/30/2015"
+              },
+              {
+                "id": "0b21b052-bc73-4dda-a607-7792e93c8656",
+                "lineOFAuthority": "Property \u0026 Casualty",
+                "startDate": "7/18/2013",
+                "endDate": "1/1/9999"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

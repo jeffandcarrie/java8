@@ -1,0 +1,24 @@
+{
+  "id": "499e6e50-8e05-44e1-a1d0-1dd1974f7266",
+  "state": "MA",
+  "licenseNumber": "1808490",
+  "licenseType": "Business Entity Producer",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "b0578ada-a54f-457f-ae9e-89baa4accc6b",
+      "lineOFAuthority": "Casualty",
+      "startDate": "6/20/2005",
+      "endDate": "6/20/2015"
+    },
+    {
+      "id": "8a483438-6303-4260-bde7-9dab523f0b48",
+      "lineOFAuthority": "Property",
+      "startDate": "6/20/2005",
+      "endDate": "6/20/2015"
+    }
+  ]
+}

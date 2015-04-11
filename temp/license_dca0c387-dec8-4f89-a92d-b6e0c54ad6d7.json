@@ -1,0 +1,18 @@
+{
+  "id": "dca0c387-dec8-4f89-a92d-b6e0c54ad6d7",
+  "state": "TX",
+  "licenseNumber": "1872228",
+  "licenseType": "Surplus Lines Agency/Agent",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "469f079b-9ab7-48e2-bf16-9b507085086d",
+      "lineOFAuthority": "No LOA needed",
+      "startDate": "12/10/2013",
+      "endDate": "12/10/2015"
+    }
+  ]
+}

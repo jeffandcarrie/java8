@@ -1,0 +1,24 @@
+{
+  "id": "48ee9ce8-5317-46b3-9840-de62568cd6ab",
+  "state": "GA",
+  "licenseNumber": "2853943",
+  "licenseType": "Agent",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "5c14a096-0013-46f8-8ee1-3895b326d5b8",
+      "lineOFAuthority": "Casualty",
+      "startDate": "4/9/2012",
+      "endDate": "7/31/2016"
+    },
+    {
+      "id": "0908597f-4015-4c53-a2c4-6b5283faa956",
+      "lineOFAuthority": "Property",
+      "startDate": "4/9/2012",
+      "endDate": "7/31/2016"
+    }
+  ]
+}

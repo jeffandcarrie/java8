@@ -1,0 +1,30 @@
+{
+  "id": "da462fc8-fd56-41c6-b192-095db41bade6",
+  "state": "MD",
+  "licenseNumber": "2117360",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "255389bb-6c13-45b6-85bf-62a2dadc103c",
+      "lineOFAuthority": "Casualty",
+      "startDate": "7/18/2013",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "45ae712a-7989-460d-8d16-7dd8734ccee6",
+      "lineOFAuthority": "Property",
+      "startDate": "7/18/2013",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "b8d9a37b-6226-49a8-a7f0-6def4909f6de",
+      "lineOFAuthority": "No LOA needed",
+      "startDate": "1/23/2014",
+      "endDate": "7/31/2015"
+    }
+  ]
+}

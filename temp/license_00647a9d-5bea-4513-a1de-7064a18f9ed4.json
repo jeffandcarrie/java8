@@ -1,0 +1,18 @@
+{
+  "id": "00647a9d-5bea-4513-a1de-7064a18f9ed4",
+  "state": "DE",
+  "licenseNumber": "0152672",
+  "licenseType": "Producer",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "2c8cd416-f5a1-44e4-b2bc-b17f0af2268d",
+      "lineOFAuthority": "No LOA Needed",
+      "startDate": "12/9/1999",
+      "endDate": "2/28/2017"
+    }
+  ]
+}

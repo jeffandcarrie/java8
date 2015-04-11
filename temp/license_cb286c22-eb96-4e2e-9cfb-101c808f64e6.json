@@ -1,0 +1,24 @@
+{
+  "id": "cb286c22-eb96-4e2e-9cfb-101c808f64e6",
+  "state": "AR",
+  "licenseNumber": "7435677",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "da7f5815-7ce6-4898-a571-a9d712e0f970",
+      "lineOFAuthority": "Casualty",
+      "startDate": "4/5/2012",
+      "endDate": "7/26/2016"
+    },
+    {
+      "id": "09a08859-8362-4576-af25-347a86988565",
+      "lineOFAuthority": "Property",
+      "startDate": "4/5/2012",
+      "endDate": "7/26/2016"
+    }
+  ]
+}

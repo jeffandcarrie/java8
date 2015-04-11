@@ -1,0 +1,36 @@
+{
+  "id": "d657da33-50b2-404c-b1d5-a5f3a753f878",
+  "state": "WA",
+  "licenseNumber": "159498",
+  "licenseType": "Producer",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "97957c3a-8dce-43ae-826f-af854b4ff995",
+      "lineOFAuthority": "Casualty",
+      "startDate": "7/1/2009",
+      "endDate": "11/5/2015"
+    },
+    {
+      "id": "3bbdef5b-da2c-46ba-b409-035a58532929",
+      "lineOFAuthority": "Disability",
+      "startDate": "7/1/2009",
+      "endDate": "11/5/2015"
+    },
+    {
+      "id": "f7781207-60e9-4a38-b7b6-bbad31971d78",
+      "lineOFAuthority": "Life",
+      "startDate": "7/1/2009",
+      "endDate": "11/5/2015"
+    },
+    {
+      "id": "13955a98-7287-4f21-a1c9-0edfbc7dd608",
+      "lineOFAuthority": "Property",
+      "startDate": "7/1/2009",
+      "endDate": "11/5/2015"
+    }
+  ]
+}

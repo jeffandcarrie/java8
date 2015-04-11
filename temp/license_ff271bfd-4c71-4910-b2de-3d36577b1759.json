@@ -1,0 +1,18 @@
+{
+  "id": "ff271bfd-4c71-4910-b2de-3d36577b1759",
+  "state": "IN",
+  "licenseNumber": "812811",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "9daba866-63e6-4eea-9d03-abaf5c76f317",
+      "lineOFAuthority": "Property \u0026 Casualty",
+      "startDate": "4/10/2012",
+      "endDate": "7/31/2016"
+    }
+  ]
+}

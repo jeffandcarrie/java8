@@ -1,0 +1,24 @@
+{
+  "id": "178a1c57-78f9-49de-8800-9127007b3326",
+  "state": "PA",
+  "licenseNumber": "671927",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "48300488-174e-4347-b1f5-7db690991353",
+      "lineOFAuthority": "Casualty \u0026 Allied Lines",
+      "startDate": "7/30/2013",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "6ed88328-ff61-4e03-b8af-99a430396a3f",
+      "lineOFAuthority": "Property \u0026 Allied Lines",
+      "startDate": "7/30/2013",
+      "endDate": "7/31/2015"
+    }
+  ]
+}

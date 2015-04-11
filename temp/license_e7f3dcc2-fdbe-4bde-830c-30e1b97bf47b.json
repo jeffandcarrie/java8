@@ -1,0 +1,36 @@
+{
+  "id": "e7f3dcc2-fdbe-4bde-830c-30e1b97bf47b",
+  "state": "CT",
+  "licenseNumber": "001039509",
+  "licenseType": "Producer",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "2656fd84-efbf-4308-9db0-bcff119cb4fe",
+      "lineOFAuthority": "Casualty",
+      "startDate": "2/1/2000",
+      "endDate": "1/31/2016"
+    },
+    {
+      "id": "2f1d0324-a41e-4feb-84b0-c93b348ee448",
+      "lineOFAuthority": "Credit Products",
+      "startDate": "2/1/2000",
+      "endDate": "1/31/2016"
+    },
+    {
+      "id": "b68beaea-dd7e-405c-bb15-b05d82f0bb1c",
+      "lineOFAuthority": "Property",
+      "startDate": "2/1/2000",
+      "endDate": "1/31/2016"
+    },
+    {
+      "id": "c3878400-2129-405f-8e09-fb226ee36ded",
+      "lineOFAuthority": "Travel Accident \u0026 Baggage",
+      "startDate": "2/1/2000",
+      "endDate": "1/31/2016"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "0152c218-e9d2-4a7e-b0ad-26ceb674fe23",
+  "state": "CT",
+  "licenseNumber": "002481576",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "e7bf098f-3570-4aca-aadd-f747123f1824",
+      "lineOFAuthority": "Casualty",
+      "startDate": "1/19/2015",
+      "endDate": "7/26/2016"
+    },
+    {
+      "id": "b6daa4f0-ce53-4e35-b5e1-0b1b4993ee28",
+      "lineOFAuthority": "Credit Products",
+      "startDate": "1/19/2015",
+      "endDate": "7/26/2016"
+    },
+    {
+      "id": "10558d71-2f86-4bfe-bf7e-baed49d56992",
+      "lineOFAuthority": "Property",
+      "startDate": "1/19/2015",
+      "endDate": "7/26/2016"
+    },
+    {
+      "id": "2b4ac84a-2bef-4356-9b83-6cb86f66e70f",
+      "lineOFAuthority": "Travel Accident \u0026 Baggage",
+      "startDate": "1/19/2015",
+      "endDate": "7/26/2016"
+    }
+  ]
+}

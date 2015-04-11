@@ -1,0 +1,24 @@
+{
+  "id": "52c5c654-7a1f-4bc4-b9f5-e6adf67c620a",
+  "state": "VA",
+  "licenseNumber": "878090",
+  "licenseType": "Surplus Lines Broker",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "06e2a763-534f-4556-9f75-8b262813a353",
+      "lineOFAuthority": "Surplus Lines",
+      "startDate": "11/4/2013",
+      "endDate": "6/30/2015"
+    },
+    {
+      "id": "0b21b052-bc73-4dda-a607-7792e93c8656",
+      "lineOFAuthority": "Property \u0026 Casualty",
+      "startDate": "7/18/2013",
+      "endDate": "1/1/9999"
+    }
+  ]
+}

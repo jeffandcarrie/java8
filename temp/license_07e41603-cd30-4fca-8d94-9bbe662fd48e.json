@@ -1,0 +1,36 @@
+{
+  "id": "07e41603-cd30-4fca-8d94-9bbe662fd48e",
+  "state": "NJ",
+  "licenseNumber": "1530106",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "21ce137f-0696-48f2-92f7-2e21fa261536",
+      "lineOFAuthority": "Casualty",
+      "startDate": "9/2/2013",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "eeb86c59-da5c-4d54-b802-819a8d94f9ef",
+      "lineOFAuthority": "Personal Lines",
+      "startDate": "9/2/2013",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "74d03578-71c3-466c-9ebe-b80f2583a773",
+      "lineOFAuthority": "Property",
+      "startDate": "9/2/2013",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "bcc9ae55-a63b-4f75-9b2a-b70e16e52338",
+      "lineOFAuthority": "Surplus Lines",
+      "startDate": "10/22/2013",
+      "endDate": "7/31/2015"
+    }
+  ]
+}

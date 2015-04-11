@@ -1,0 +1,24 @@
+{
+  "id": "d0e11d4d-039e-43d2-a13a-d110cf74113d",
+  "state": "MD",
+  "licenseNumber": "133339",
+  "licenseType": "Producer",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "4e24d206-4330-4646-aa32-777489812779",
+      "lineOFAuthority": "Casualty",
+      "startDate": "11/10/1999",
+      "endDate": "2/4/2016"
+    },
+    {
+      "id": "e93f88eb-35d5-4662-8b4e-31c0e93a4c1b",
+      "lineOFAuthority": "Property",
+      "startDate": "11/10/1999",
+      "endDate": "2/4/2016"
+    }
+  ]
+}

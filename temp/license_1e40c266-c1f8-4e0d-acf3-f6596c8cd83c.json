@@ -1,0 +1,48 @@
+{
+  "id": "1e40c266-c1f8-4e0d-acf3-f6596c8cd83c",
+  "state": "TN",
+  "licenseNumber": "87579",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "62b2580f-4f9a-4a69-9954-961e4e5af2bb",
+      "lineOFAuthority": "Casualty",
+      "startDate": "9/19/2002",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "dec62cf8-271e-4cdd-a47b-270f161bf66b",
+      "lineOFAuthority": "Property",
+      "startDate": "9/19/2002",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "48bfcd25-0dcf-4486-abf7-c3223fac134e",
+      "lineOFAuthority": "Accident \u0026 Health",
+      "startDate": "10/2/2002",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "e0c9bf8a-b36c-4663-8ff8-eaebdb5e1ead",
+      "lineOFAuthority": "Life",
+      "startDate": "10/2/2002",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "fa7f3892-8b3d-43c9-b509-ddb0b35bbcb5",
+      "lineOFAuthority": "Variable Contracts",
+      "startDate": "8/11/2003",
+      "endDate": "7/31/2015"
+    },
+    {
+      "id": "d239b4e3-b1ec-4f2b-ae58-39026bc7bd34",
+      "lineOFAuthority": "No LOA needed",
+      "startDate": "4/19/2007",
+      "endDate": "7/31/2015"
+    }
+  ]
+}

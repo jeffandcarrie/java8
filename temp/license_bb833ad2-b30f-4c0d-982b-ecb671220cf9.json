@@ -1,0 +1,18 @@
+{
+  "id": "bb833ad2-b30f-4c0d-982b-ecb671220cf9",
+  "state": "TX",
+  "licenseNumber": "13446",
+  "licenseType": "General Lines Agency/Agent",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "950fed7b-0401-4ea5-941b-d3aed23e0127",
+      "lineOFAuthority": "Property \u0026 Casualty",
+      "startDate": "2/27/2002",
+      "endDate": "2/27/2016"
+    }
+  ]
+}

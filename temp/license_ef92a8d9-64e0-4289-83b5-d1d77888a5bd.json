@@ -1,0 +1,30 @@
+{
+  "id": "ef92a8d9-64e0-4289-83b5-d1d77888a5bd",
+  "state": "NJ",
+  "licenseNumber": "9954442",
+  "licenseType": "Producer - Organization (Corp)",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "ef8e6599-6df0-469c-911c-62def3d3b242",
+      "lineOFAuthority": "Casualty",
+      "startDate": "12/16/1999",
+      "endDate": "5/31/2015"
+    },
+    {
+      "id": "e2992353-a796-4be9-bd4d-ce0ce4b9320c",
+      "lineOFAuthority": "Personal Lines",
+      "startDate": "12/16/1999",
+      "endDate": "5/31/2015"
+    },
+    {
+      "id": "d8af6d95-afa9-4e32-8c57-8c35b78584dd",
+      "lineOFAuthority": "Property",
+      "startDate": "12/16/1999",
+      "endDate": "5/31/2015"
+    }
+  ]
+}

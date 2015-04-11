@@ -1,0 +1,30 @@
+{
+  "id": "058e5be9-2653-45e1-bfd3-d1eea59a9337",
+  "state": "MO",
+  "licenseNumber": "8295433",
+  "licenseType": "Producer",
+  "agencyId": "dcd8e384-6369-4339-8b6a-252d25de8d5a",
+  "agencyName": "Cordogan Insurance Agency",
+  "producerId": "37c99a96-5e9f-4dc7-990c-19a7b3e92b48",
+  "producerName": "Michael William Cordogan",
+  "licenseDetails": [
+    {
+      "id": "c3571ef3-4580-4622-a6fc-72d1ad697da5",
+      "lineOFAuthority": "Casualty",
+      "startDate": "7/18/2013",
+      "endDate": "7/18/2015"
+    },
+    {
+      "id": "1e424f28-5a40-4c37-a324-07ba1f478e6b",
+      "lineOFAuthority": "Property",
+      "startDate": "7/18/2013",
+      "endDate": "7/18/2015"
+    },
+    {
+      "id": "502eefa4-9e02-463f-8b65-b0b27c0730a2",
+      "lineOFAuthority": "No LOA needed",
+      "startDate": "10/25/2013",
+      "endDate": "10/25/2015"
+    }
+  ]
+}

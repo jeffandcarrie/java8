@@ -1,0 +1,18 @@
+{
+  "id": "dda74a5c-826a-47fb-a7cd-44b7292bf975",
+  "state": "IN",
+  "licenseNumber": "30365",
+  "licenseType": "Producer - Organization (Corp)",
+  "agencyId": "726e0ef3-8aad-4d85-9e2c-039c496f32f5",
+  "agencyName": "The Travelers Companies, Inc.",
+  "producerId": "c1a61d3c-b8dd-43a4-a0d8-b8fe468ecedb",
+  "producerName": "SPC Insurance Agency, Inc.",
+  "licenseDetails": [
+    {
+      "id": "242eef4f-9325-4850-8a1c-d2cc68186f32",
+      "lineOFAuthority": "Property \u0026 Casualty",
+      "startDate": "6/16/2000",
+      "endDate": "1/31/2016"
+    }
+  ]
+}
