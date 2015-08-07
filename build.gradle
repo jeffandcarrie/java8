@@ -33,4 +33,7 @@ dependencies {
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'org.apache.httpcomponents:httpclient:4.4.1'
 
+    compile 'com.amazonaws:aws-java-sdk-s3:1.10.8'
+    compile 'com.amazonaws:aws-java-sdk-kms:1.10.8'
+
 }

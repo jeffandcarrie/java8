@@ -32,6 +32,7 @@ import com.google.gson.stream.JsonReader;
 public class SeedData {
 	static final String BASE_URL="http://localhost:8080/accelerator_api/api/"; //grails run-app
 //	static final String BASE_URL="http://localhost:8080/api/"; //war file
+//	static final String BASE_URL="http://acceleratordemo.elasticbeanstalk.com/api/"; //war file in test
 	
 	public static int queryForId(String filter, String type) throws Exception{
         CloseableHttpClient httpclient = HttpClients.createDefault();
@@ -344,10 +345,10 @@ public class SeedData {
 		List <Company> agencies = new ArrayList<Company>();
 		
 
-//		getClient("bin/spc-v2.csv", clients); 
-//		getClient("bin/spc-hoppes.csv", clients); 
-//		getClient("bin/spc-nguyen.csv", clients); 
-//		getClient("bin/cordogan-v2.csv", clients); 
+		getClient("bin/spc-v2.csv", clients);
+				getClient("bin/spc-hoppes.csv", clients); 
+		getClient("bin/spc-nguyen.csv", clients); 
+		getClient("bin/cordogan-v2.csv", clients); 
 		getClient("bin/sample-tpa-new.csv", clients); 
 		
 		for(Client c : clients) {
@@ -356,10 +357,10 @@ public class SeedData {
 			
 		}
 		
-//		getAgency("bin/spc-v2.csv", agencies, clients, LicenseeType.PRODUCER); 
-//		getAgency("bin/spc-hoppes.csv", agencies, clients,LicenseeType.PRODUCER ); 
-//		getAgency("bin/spc-nguyen.csv", agencies, clients,LicenseeType.PRODUCER); 
-//		getAgency("bin/cordogan-v2.csv", agencies,clients,LicenseeType.PRODUCER); 
+		getAgency("bin/spc-v2.csv", agencies, clients, LicenseeType.PRODUCER); 
+		getAgency("bin/spc-hoppes.csv", agencies, clients,LicenseeType.PRODUCER ); 
+		getAgency("bin/spc-nguyen.csv", agencies, clients,LicenseeType.PRODUCER); 
+		getAgency("bin/cordogan-v2.csv", agencies,clients,LicenseeType.PRODUCER); 
 		getAgency("bin/sample-tpa-new.csv", agencies,clients,LicenseeType.TPA); 
 
 	}
