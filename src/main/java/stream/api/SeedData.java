@@ -30,9 +30,9 @@ import com.google.gson.stream.JsonReader;
 
 
 public class SeedData {
-	static final String BASE_URL="http://localhost:8080/accelerator_api/api/"; //grails run-app
+	//static final String BASE_URL="http://localhost:8080/accelerator_api/api/"; //grails run-app
 //	static final String BASE_URL="http://localhost:8080/api/"; //war file
-//	static final String BASE_URL="http://acceleratordemo.elasticbeanstalk.com/api/"; //war file in test
+	static final String BASE_URL="http://acceleratordemo.elasticbeanstalk.com/api/"; //war file in test
 	
 	public static int queryForId(String filter, String type) throws Exception{
         CloseableHttpClient httpclient = HttpClients.createDefault();
@@ -98,6 +98,7 @@ public class SeedData {
             httppost.setEntity( reqEntity);
 
             System.out.println("Executing request: " + httppost.getRequestLine());
+            System.out.println("    sending body: " + gson.toJson(data));
             CloseableHttpResponse response = httpclient.execute(httppost);
             try {
                 System.out.println("----------------------------------------");
@@ -196,7 +197,7 @@ public class SeedData {
 			license.stateDescription = new Ref(descId);
 			
 			
-			int id = saveAndGetId(license, "licenses");
+			int id = saveAndGetId(license, "prodLicenses");
 			license.id=id;
 			
 			
