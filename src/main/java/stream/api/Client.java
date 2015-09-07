@@ -125,3 +125,23 @@ enum LicenseeType {
 	PRODUCER,
 	TPA
 }
+
+
+
+class ToDo {
+	public ToDo(int companyId, int typeId) {
+		company = new Ref(companyId);
+		type = new Ref(typeId);
+	}
+	
+	Ref company;
+	Ref type;
+	String comments;
+	Date dueDate;
+	String status;	
+	boolean deleted;
+}
+
+class ToDoCategory {
+	String toDoCategory;
+}
