@@ -30,8 +30,7 @@ import com.google.gson.stream.JsonReader;
 
 
 public class SeedData {
-//	static final String BASE_URL="http://localhost:8080/accelerator_api/api/"; //grails run-app
-//	static final String BASE_URL="http://localhost:8080/api/"; //war file
+//	static final String BASE_URL="http://localhost:8080/api/"; //local
 	static final String BASE_URL="http://acceleratordemo.elasticbeanstalk.com/api/"; //war file in test
 	
 	public static int queryForId(String filter, String type) throws Exception{
@@ -92,7 +91,7 @@ public class SeedData {
             //2015-05-23T20:25:01Z
     		Gson gson = new GsonBuilder().setPrettyPrinting()
     		   .setDateFormat("yyyy-MM-dd'T00:00:00Z'").create();
-
+System.out.println("sending " +gson.toJson(data) );
             StringEntity reqEntity = new StringEntity(gson.toJson(data));
 
             httppost.setEntity( reqEntity);
