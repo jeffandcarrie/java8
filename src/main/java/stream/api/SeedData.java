@@ -179,7 +179,8 @@ System.out.println("sending " +gson.toJson(data) );
 			CSVRecord lic = details.get(0);
 			License license = new License(p);
 			license.licenseNumber = lic.get("license.licenseNumber");
-			license.licenseType = lic.get("license.type");
+// double check this			license.licenseType = lic.get("license.type");
+			license.licenseType = lic.get("license.resident");
 			license.state = lic.get("license.state");
 			license.licenseDetails = getDetails(details);
 			
@@ -290,8 +291,12 @@ System.out.println("sending " +gson.toJson(data) );
 
 		CSVRecord agencyRecord = records.get(0);
 	
-		Optional<Company> agOpt =agencyList.stream().filter(a->a.EIN.equals(agencyRecord.get("pe.EIN"))).findFirst();
-		Optional<Client> cliOpt =clientList.stream().filter(a->a.name .equals(agencyRecord.get("client.name"))).findFirst();
+		Optional<Company> agOpt =agencyList.stream()
+										   .filter(a->a.EIN.equals(agencyRecord.get("pe.EIN")))
+										   .findFirst();
+		Optional<Client> cliOpt =clientList.stream()
+										   .filter(a->a.name .equals(agencyRecord.get("client.name")))
+										   .findFirst();
 
 		agencyList.stream().forEach(a->System.out.println("LIST HASE: (" + a.EIN + ")"));
 		System.out.println("LOOK FOR (" + agencyRecord.get("pe.EIN") + ")" + agOpt.isPresent());
@@ -345,23 +350,46 @@ System.out.println("sending " +gson.toJson(data) );
 		List <Company> agencies = new ArrayList<Company>();
 		
 
-		getClient("bin/spc-v2.csv", clients);
-				getClient("bin/spc-hoppes.csv", clients); 
-		getClient("bin/spc-nguyen.csv", clients); 
-		getClient("bin/cordogan-v2.csv", clients); 
-		getClient("bin/sample-tpa-new.csv", clients); 
+//		getClient("bin/spc-v2.csv", clients);
+//		getClient("bin/spc-hoppes.csv", clients); 
+//		getClient("bin/spc-nguyen.csv", clients); 
+//		getClient("bin/cordogan-v2.csv", clients); 
+//		getClient("bin/sample-tpa-new.csv", clients); 
+		//getClient("bin/00010113.csv", clients); 
+//		getClient("bin/FGLoadFile.csv", clients);
 		
+		// new
+//		getClient("bin/FGLicensing.csv", clients);
+		getClient("bin/Cordogan-Client.csv", clients);
+		getClient("bin/Cordogan-Agency.csv", clients);
+		getClient("bin/Travelers-Travelers.csv", clients);
+		getClient("bin/Travelers-SPC.csv", clients);
+		getClient("bin/00010113.csv", clients); 
+
 		for(Client c : clients) {
 			int id = saveAndGetId(c, "clients");
 			c.id = id;
 			
 		}
+
+//		getAgency("bin/FGLicensing.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/Cordogan-Client.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/Travelers-Rose.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/Travelers-Nguyen.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/Travelers-Brenya.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/00010113.csv", agencies, clients,LicenseeType.PRODUCER); 
+		// end new
 		
-		getAgency("bin/spc-v2.csv", agencies, clients, LicenseeType.PRODUCER); 
-		getAgency("bin/spc-hoppes.csv", agencies, clients,LicenseeType.PRODUCER ); 
-		getAgency("bin/spc-nguyen.csv", agencies, clients,LicenseeType.PRODUCER); 
-		getAgency("bin/cordogan-v2.csv", agencies,clients,LicenseeType.PRODUCER); 
-		getAgency("bin/sample-tpa-new.csv", agencies,clients,LicenseeType.TPA); 
+		// old
+		//getAgency("bin/Sample-TPA-Load-File-fields-v2.csv", agencies, clients, LicenseeType.TPA);
+//		getAgency("bin/FGLoadFile.csv", agencies, clients, LicenseeType.PRODUCER);
+		
+//		getAgency("bin/spc-v2.csv", agencies, clients, LicenseeType.PRODUCER); 
+//		getAgency("bin/spc-hoppes.csv", agencies, clients,LicenseeType.PRODUCER ); 
+//		getAgency("bin/spc-nguyen.csv", agencies, clients,LicenseeType.PRODUCER); 
+//		getAgency("bin/cordogan-v2.csv", agencies,clients,LicenseeType.PRODUCER); 
+//		getAgency("bin/sample-tpa-new.csv", agencies,clients,LicenseeType.TPA); 
+//		getAgency("bin/00010113.csv", agencies, clients,LicenseeType.PRODUCER); 
 
 	}
 }
