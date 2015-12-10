@@ -5,9 +5,13 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -22,6 +26,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.joda.time.format.DateTimeFormatterBuilder;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -30,8 +35,8 @@ import com.google.gson.stream.JsonReader;
 
 
 public class SeedData {
-//	static final String BASE_URL="http://localhost:8080/api/"; //local
-	static final String BASE_URL="http://acceleratordemo.elasticbeanstalk.com/api/"; //war file in test
+	static final String BASE_URL="http://localhost:8080/api/"; //local
+//	static final String BASE_URL="http://acceleratordemo.elasticbeanstalk.com/api/"; //war file in test
 	
 	public static int queryForId(String filter, String type) throws Exception{
         CloseableHttpClient httpclient = HttpClients.createDefault();
@@ -149,7 +154,8 @@ System.out.println("sending " +gson.toJson(data) );
 	}
 	
 	private static List<LicenseDetail> getDetails(List <CSVRecord> records) throws Exception{
-		SimpleDateFormat fmt = new SimpleDateFormat("dd/MM/yyyy");
+		SimpleDateFormat fmt = new SimpleDateFormat("MM/dd/yyyy");
+		DateTimeFormatter dateFmt = (new java.time.format.DateTimeFormatterBuilder()).appendPattern("M/d/y").toFormatter();
 		
 		List <LicenseDetail> licDetails = new ArrayList<LicenseDetail>();
 		for(CSVRecord rec : records) {
@@ -157,6 +163,7 @@ System.out.println("sending " +gson.toJson(data) );
 			detail.lineOfAuthority = rec.get("licenseDetail.loa");
 			try {
 				detail.startDate = fmt.parse (rec.get("licenseDetail.effectiveDate"));
+				 LocalDate testDate = LocalDate.parse(rec.get("licenseDetail.effectiveDate"), dateFmt);
 				detail.endDate = fmt.parse(rec.get("licenseDetail.expiration"));
 			}
 			catch(ParseException e) {
@@ -209,7 +216,7 @@ System.out.println("sending " +gson.toJson(data) );
 	
 	private static List <TpaLicense> getLicense(List <CSVRecord> records, Tpa p, Company ag) throws Exception {
 		Map <String, List<CSVRecord>> grouped = records.stream()
-				 .filter(r -> p.npnNumber.equals(r.get("producer.npn")))					 
+				 .filter(r -> p.npnNumber.equals(r.get("tpa.npn")))					 
 				 .collect(Collectors.groupingBy(drec->drec.get("license.licenseNumber") + drec.get("license.state")));
 
 //		p.licenses = new ArrayList<License>();
@@ -260,14 +267,14 @@ System.out.println("sending " +gson.toJson(data) );
 
 	private static List<Tpa> getTpas(List<CSVRecord> records, Company a) throws Exception{
 		Map <String, List<CSVRecord>> tpas = records.stream()
-				 .collect(Collectors.groupingBy(rec->rec.get("producer.name")));
+				 .collect(Collectors.groupingBy(rec->rec.get("tpa.name")));
 
 		List <Tpa> plist = new ArrayList<Tpa>();
 		for(String tpaID : tpas.keySet()) {
 			Tpa tpa = new Tpa(a);
 			CSVRecord rec = tpas.get(tpaID).get(0);
-			tpa.name = rec.get("producer.name");
-			tpa.npnNumber = rec.get("producer.npn");
+			tpa.name = rec.get("tpa.name");
+			tpa.npnNumber = rec.get("tpa.npn");
 			plist.add(tpa);
 
 			int id = saveAndGetId(tpa, "thirdPartyAdministrators");
@@ -360,11 +367,15 @@ System.out.println("sending " +gson.toJson(data) );
 		
 		// new
 //		getClient("bin/FGLicensing.csv", clients);
-		getClient("bin/Cordogan-Client.csv", clients);
-		getClient("bin/Cordogan-Agency.csv", clients);
-		getClient("bin/Travelers-Travelers.csv", clients);
-		getClient("bin/Travelers-SPC.csv", clients);
-		getClient("bin/00010113.csv", clients); 
+		
+//		getClient("bin/Travelers-Travelers.csv", clients);
+//		
+
+		getClient("bin/Sample-Load-File-Sample-TPA.csv", clients); 	
+		getClient("bin/Amwins-Load-File-Amwins-TPA.csv", clients);
+//		getClient("bin/Amwins-Load-File-Amwins-Producer.csv", clients);
+		getClient("bin/Cordogan-Load-File-M-Cordogan-Producer.csv", clients);
+		getClient("bin/SPC-Load-File-Travelers-Client.csv", clients);
 
 		for(Client c : clients) {
 			int id = saveAndGetId(c, "clients");
@@ -373,11 +384,18 @@ System.out.println("sending " +gson.toJson(data) );
 		}
 
 //		getAgency("bin/FGLicensing.csv", agencies, clients, LicenseeType.PRODUCER);
-		getAgency("bin/Cordogan-Client.csv", agencies, clients, LicenseeType.PRODUCER);
-		getAgency("bin/Travelers-Rose.csv", agencies, clients, LicenseeType.PRODUCER);
-		getAgency("bin/Travelers-Nguyen.csv", agencies, clients, LicenseeType.PRODUCER);
-		getAgency("bin/Travelers-Brenya.csv", agencies, clients, LicenseeType.PRODUCER);
-		getAgency("bin/00010113.csv", agencies, clients,LicenseeType.PRODUCER); 
+		
+
+
+		getAgency("bin/Sample-Load-File-Sample-TPA.csv", agencies, clients, LicenseeType.TPA);
+		getAgency("bin/Amwins-Load-File-Amwins-TPA.csv", agencies, clients, LicenseeType.TPA);
+//		getAgency("bin/Amwins-Load-File-Amwins-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/Cordogan-Load-File-Cordogan-Agency-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/Cordogan-Load-File-M-Cordogan-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/SPC-Load-File-SPC-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/SPC-Load-File-Rose-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/SPC-Load-File-Nguyen-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/SPC-Load-File-Brenya-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
 		// end new
 		
 		// old
