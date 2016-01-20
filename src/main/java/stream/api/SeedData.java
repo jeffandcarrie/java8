@@ -35,8 +35,8 @@ import com.google.gson.stream.JsonReader;
 
 
 public class SeedData {
-	static final String BASE_URL="http://localhost:8080/api/"; //local
-//	static final String BASE_URL="http://acceleratordemo.elasticbeanstalk.com/api/"; //war file in test
+//	static final String BASE_URL="http://localhost:8080/api/"; //local
+	static final String BASE_URL="http://acceleratordemo.elasticbeanstalk.com/api/"; //war file in test
 	
 	public static int queryForId(String filter, String type) throws Exception{
         CloseableHttpClient httpclient = HttpClients.createDefault();
@@ -241,9 +241,18 @@ System.out.println("sending " +gson.toJson(data) );
 		
 	}
 	
-	private static List<Producer> getProducers(List<CSVRecord> records, Company a) throws Exception{
-		Map <String, List<CSVRecord>> producers = records.stream()
-				 .collect(Collectors.groupingBy(rec->rec.get("producer.nipr")));
+	private static List<Producer> getProducers(List<CSVRecord> records, Company a, LicenseeType type) throws Exception{
+		Map <String, List<CSVRecord>> producers;
+		
+		if (type.equals(LicenseeType.TPA)) {
+			producers = records.stream()
+					.collect(Collectors.groupingBy(rec->rec.get("tpa.npn")));
+		} else {
+			producers = records.stream()
+					.collect(Collectors.groupingBy(rec->rec.get("producer.nipr")));
+			
+		}
+				 
 
 		List <Producer> plist = new ArrayList<Producer>();
 		for(String producerID : producers.keySet()) {
@@ -311,13 +320,12 @@ System.out.println("sending " +gson.toJson(data) );
 		
 		Company ag = null;
 		
-		if(agOpt.isPresent() ) {
+		if (agOpt.isPresent() && type.equals(LicenseeType.PRODUCER) ) {
 			ag = agOpt.get();
 //			ag.producers.addAll(getProducers(records, ag));
 			
-			getProducers(records, ag);
-		}
-		else {
+			getProducers(records, ag, type);
+		} else {
 			ag = new Company();
 			agencyList.add(ag);
 			
@@ -340,7 +348,7 @@ System.out.println("sending " +gson.toJson(data) );
 			
 			switch(type) {
 			case PRODUCER :
-				getProducers(records, ag);
+				getProducers(records, ag, type);
 				break;
 			case TPA :
 				getTpas(records, ag);
@@ -371,9 +379,9 @@ System.out.println("sending " +gson.toJson(data) );
 //		getClient("bin/Travelers-Travelers.csv", clients);
 //		
 
-		getClient("bin/Sample-Load-File-Sample-TPA.csv", clients); 	
+//		getClient("bin/Sample-Load-File-Sample-TPA.csv", clients); 	
 		getClient("bin/Amwins-Load-File-Amwins-TPA.csv", clients);
-//		getClient("bin/Amwins-Load-File-Amwins-Producer.csv", clients);
+		getClient("bin/Amwins-Load-File-Amwins-Producer.csv", clients);
 		getClient("bin/Cordogan-Load-File-M-Cordogan-Producer.csv", clients);
 		getClient("bin/SPC-Load-File-Travelers-Client.csv", clients);
 
@@ -387,9 +395,10 @@ System.out.println("sending " +gson.toJson(data) );
 		
 
 
-		getAgency("bin/Sample-Load-File-Sample-TPA.csv", agencies, clients, LicenseeType.TPA);
+//		getAgency("bin/Sample-Load-File-Sample-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+//		getAgency("bin/Sample-Load-File-Sample-TPA.csv", agencies, clients, LicenseeType.TPA);
 		getAgency("bin/Amwins-Load-File-Amwins-TPA.csv", agencies, clients, LicenseeType.TPA);
-//		getAgency("bin/Amwins-Load-File-Amwins-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/Amwins-Load-File-Amwins-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
 		getAgency("bin/Cordogan-Load-File-Cordogan-Agency-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
 		getAgency("bin/Cordogan-Load-File-M-Cordogan-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
 		getAgency("bin/SPC-Load-File-SPC-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
