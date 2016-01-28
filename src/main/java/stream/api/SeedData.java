@@ -187,7 +187,8 @@ System.out.println("sending " +gson.toJson(data) );
 			License license = new License(p);
 			license.licenseNumber = lic.get("license.licenseNumber");
 // double check this			license.licenseType = lic.get("license.type");
-			license.licenseType = lic.get("license.resident");
+			license.resident = lic.get("license.resident");;
+			license.licenseType = lic.get("issued.license");
 			license.state = lic.get("license.state");
 			license.licenseDetails = getDetails(details);
 			
@@ -374,12 +375,9 @@ System.out.println("sending " +gson.toJson(data) );
 //		getClient("bin/FGLoadFile.csv", clients);
 		
 		// new
-//		getClient("bin/FGLicensing.csv", clients);
-		
-//		getClient("bin/Travelers-Travelers.csv", clients);
-//		
 
-//		getClient("bin/Sample-Load-File-Sample-TPA.csv", clients); 	
+		getClient("bin/Sample-Load-File-Sample-TPA.csv", clients); 	
+		getClient("bin/FG-Load-File-Rossi-Producer.csv", clients); 	
 		getClient("bin/Amwins-Load-File-Amwins-TPA.csv", clients);
 		getClient("bin/Amwins-Load-File-Amwins-Producer.csv", clients);
 		getClient("bin/Cordogan-Load-File-M-Cordogan-Producer.csv", clients);
@@ -391,12 +389,9 @@ System.out.println("sending " +gson.toJson(data) );
 			
 		}
 
-//		getAgency("bin/FGLicensing.csv", agencies, clients, LicenseeType.PRODUCER);
-		
-
-
-//		getAgency("bin/Sample-Load-File-Sample-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
-//		getAgency("bin/Sample-Load-File-Sample-TPA.csv", agencies, clients, LicenseeType.TPA);
+		getAgency("bin/Sample-Load-File-Sample-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
+		getAgency("bin/Sample-Load-File-Sample-TPA.csv", agencies, clients, LicenseeType.TPA);
+		getAgency("bin/FG-Load-File-Rossi-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
 		getAgency("bin/Amwins-Load-File-Amwins-TPA.csv", agencies, clients, LicenseeType.TPA);
 		getAgency("bin/Amwins-Load-File-Amwins-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
 		getAgency("bin/Cordogan-Load-File-Cordogan-Agency-Producer.csv", agencies, clients, LicenseeType.PRODUCER);

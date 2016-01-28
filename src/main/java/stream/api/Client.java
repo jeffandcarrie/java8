@@ -40,6 +40,7 @@ class License {
 	String state;
 	String licenseNumber;
 	String licenseType;
+	String resident;
 
 	Ref producer;
 	Ref stateDescription;
