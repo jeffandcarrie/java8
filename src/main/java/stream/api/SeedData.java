@@ -189,6 +189,9 @@ System.out.println("sending " +gson.toJson(data) );
 // double check this			license.licenseType = lic.get("license.type");
 			license.resident = lic.get("license.resident");;
 			license.licenseType = lic.get("issued.license");
+			if (license.licenseType == null) {
+				license.licenseType = "NOT PROVIDED";
+			}
 			license.state = lic.get("license.state");
 			license.licenseDetails = getDetails(details);
 			
@@ -365,15 +368,6 @@ System.out.println("sending " +gson.toJson(data) );
 		List <Client> clients = new ArrayList<Client>();
 		List <Company> agencies = new ArrayList<Company>();
 		
-
-//		getClient("bin/spc-v2.csv", clients);
-//		getClient("bin/spc-hoppes.csv", clients); 
-//		getClient("bin/spc-nguyen.csv", clients); 
-//		getClient("bin/cordogan-v2.csv", clients); 
-//		getClient("bin/sample-tpa-new.csv", clients); 
-		//getClient("bin/00010113.csv", clients); 
-//		getClient("bin/FGLoadFile.csv", clients);
-		
 		// new
 
 		getClient("bin/Sample-Load-File-Sample-TPA.csv", clients); 	
@@ -402,16 +396,6 @@ System.out.println("sending " +gson.toJson(data) );
 		getAgency("bin/SPC-Load-File-Brenya-Producer.csv", agencies, clients, LicenseeType.PRODUCER);
 		// end new
 		
-		// old
-		//getAgency("bin/Sample-TPA-Load-File-fields-v2.csv", agencies, clients, LicenseeType.TPA);
-//		getAgency("bin/FGLoadFile.csv", agencies, clients, LicenseeType.PRODUCER);
-		
-//		getAgency("bin/spc-v2.csv", agencies, clients, LicenseeType.PRODUCER); 
-//		getAgency("bin/spc-hoppes.csv", agencies, clients,LicenseeType.PRODUCER ); 
-//		getAgency("bin/spc-nguyen.csv", agencies, clients,LicenseeType.PRODUCER); 
-//		getAgency("bin/cordogan-v2.csv", agencies,clients,LicenseeType.PRODUCER); 
-//		getAgency("bin/sample-tpa-new.csv", agencies,clients,LicenseeType.TPA); 
-//		getAgency("bin/00010113.csv", agencies, clients,LicenseeType.PRODUCER); 
 
 	}
 }
